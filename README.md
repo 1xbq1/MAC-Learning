@@ -29,4 +29,6 @@ python main.py --config ./config/ucla/train_joint_aagcn.yaml
 ```
 python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
+## Trained model
+The trained model will be uploaded as soon as possible.
 ## Citation
