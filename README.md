@@ -13,19 +13,19 @@ python ./data_gen/ucla_gendata.py
 python ./data_gen/kinetics_gendata.py
 ```
 ## Training
-- On NTU RGB+D cross-subject benchmark
+- On NTU RGB+D cross-subject benchmark.
 ```
 python main.py --config ./config/nturgbd-cross-subject/train_joint_aagcn.yaml
 ```
-- On NTU RGB+D cross-view benchmark
+- On NTU RGB+D cross-view benchmark.
 ```
 python main.py --config ./config/nturgbd-cross-view/train_joint_aagcn.yaml
 ```
-- On NW-UCLA
+- On NW-UCLA.
 ```
 python main.py --config ./config/ucla/train_joint_aagcn.yaml
 ```
-- On Skeleton-Kinetics
+- On Skeleton-Kinetics.
 ```
 python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
