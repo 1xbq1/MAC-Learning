@@ -31,4 +31,6 @@ python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
 ## Trained model
 The trained model will be uploaded as soon as possible.
+## Acknowledgements
+This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN), thanks to the original authors for their works!
 ## Citation
