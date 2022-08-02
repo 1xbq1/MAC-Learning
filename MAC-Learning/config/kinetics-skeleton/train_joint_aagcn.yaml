@@ -6,7 +6,7 @@ feeder: feeders.feeder.Feeder
 train_feeder_args:
   random_choose: True
   random_move: True
-  window_size: 100
+  window_size: 150
   data_path: ../data/kinetics/train_data_joint.npy
   label_path: ../data/kinetics/train_label.pkl
   debug: False
@@ -32,7 +32,7 @@ step: [45, 55]
 warm_up_epoch: 5
 
 # training
-device: [0, 1, 2]
+device: [0, 1]
 batch_size: 128
 test_batch_size: 256
 num_epoch: 65
