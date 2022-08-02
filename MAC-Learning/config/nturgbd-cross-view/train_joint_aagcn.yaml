@@ -3,8 +3,8 @@ model_saved_name: ./runs/ntu_cv_aagcn_joint
 # feeder
 feeder: feeders.feeder.Feeder
 train_feeder_args:
-  data_path: ../data_CV10_01/ntu/xview/train_data_joint.npy
-  label_path: ../data_CV10_01/ntu/xview/train_label.pkl
+  data_path: ../data_CV/ntu/xview/train_data_joint.npy
+  label_path: ../data_CV/ntu/xview/train_label.pkl
   debug: False
   random_choose: False
   random_shift: False
@@ -13,8 +13,8 @@ train_feeder_args:
   normalization: False
 
 test_feeder_args:
-  data_path: ../data_CV10_01/ntu/xview/val_data_joint.npy
-  label_path: ../data_CV10_01/ntu/xview/val_label.pkl
+  data_path: ../data_CV/ntu/xview/val_data_joint.npy
+  label_path: ../data_CV/ntu/xview/val_label.pkl
 
 # model
 model: model.aagcn.Model
