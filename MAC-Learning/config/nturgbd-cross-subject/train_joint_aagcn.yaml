@@ -3,8 +3,8 @@ model_saved_name: ./runs/ntu_cs_aagcn_joint
 # feeder
 feeder: feeders.feeder.Feeder
 train_feeder_args:
-  data_path: ./data/ntu/xsub/train_data_joint.npy
-  label_path: ./data/ntu/xsub/train_label.pkl
+  data_path: ../data_CS10_04/ntu/xsub/train_data_joint.npy
+  label_path: ../data_CS10_04/ntu/xsub/train_label.pkl
   debug: False
   random_choose: False
   random_shift: False
@@ -13,8 +13,8 @@ train_feeder_args:
   normalization: False
 
 test_feeder_args:
-  data_path: ./data/ntu/xsub/val_data_joint.npy
-  label_path: ./data/ntu/xsub/val_label.pkl
+  data_path: ../data_CS10_04/ntu/xsub/val_data_joint.npy
+  label_path: ../data_CS10_04/ntu/xsub/val_label.pkl
 
 # model
 model: model.aagcn.Model
@@ -30,13 +30,13 @@ model_args:
 weight_decay: 0.0001
 base_lr: 0.1
 step: [30, 40]
-warm_up_epoch: 5
+warm_up_epoch: 10
 
 # training
-device: [0, 1, 2, 3]
-batch_size: 64
-test_batch_size: 64
-num_epoch: 50
+device: [0]
+batch_size: 16
+test_batch_size: 128
+num_epoch: 70
 nesterov: True
 
 only_train_part: True
