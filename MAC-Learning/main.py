@@ -462,6 +462,8 @@ class Processor():
             else:
                 lr = self.arg.base_lr * (
                         0.1 ** np.sum(epoch >= np.array(self.arg.step)))
+                # lr = self.arg.base_lr * (
+                #        0.5 * (np.cos((epoch + 1 - self.arg.warm_up_epoch) / (self.arg.num_epoch - self.arg.warm_up_epoch) * np.pi) + 1))
             for param_group in self.optimizer.param_groups:
                 param_group['lr'] = lr
             return lr
