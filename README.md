@@ -34,7 +34,6 @@ The trained weight is [here](https://pan.baidu.com/s/1MfAk-AEVcsM6raQsCLua_Q?pwd
 
 The corresponding processed data is [here](https://pan.baidu.com/s/1W2T2N0lo8oukzBp13LWcfQ?pwd=ph6f)
 
-Test
 ```
 python main.py --config ./config/nturgbd-cross-subject/train_joint_aagcn.yaml --weights ./runs/ntu_cs_aagcn_joint_best.pt --phase test
 ```
