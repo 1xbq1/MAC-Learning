@@ -31,7 +31,8 @@ python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
 ## Trained model
 The trained weight is [here](https://pan.baidu.com/s/1MfAk-AEVcsM6raQsCLua_Q?pwd=spez)
-The The corresponding processed data is [here](https://pan.baidu.com/s/1W2T2N0lo8oukzBp13LWcfQ?pwd=ph6f)
+
+The corresponding processed data is [here](https://pan.baidu.com/s/1W2T2N0lo8oukzBp13LWcfQ?pwd=ph6f)
 ```
 python main.py --config ./config/nturgbd-cross-subject/train_joint_aagcn.yaml --weights ./runs/ntu_cs_aagcn_joint_best.pt --phase test
 ```
