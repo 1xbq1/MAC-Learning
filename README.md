@@ -30,7 +30,11 @@ python main.py --config ./config/ucla/train_joint_aagcn.yaml
 python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
 ## Trained model
-The trained model will be uploaded as soon as possible.
+The trained weight is [here](https://pan.baidu.com/s/1MfAk-AEVcsM6raQsCLua_Q?pwd=spez)
+The The corresponding processed data is [here](https://pan.baidu.com/s/1W2T2N0lo8oukzBp13LWcfQ?pwd=ph6f)
+```
+python main.py --config ./config/nturgbd-cross-subject/train_joint_aagcn.yaml --weights ./runs/ntu_cs_aagcn_joint_best.pt --phase test
+```
 ## Acknowledgements
 This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN), thanks to the original authors for their works!
 ## Citation
