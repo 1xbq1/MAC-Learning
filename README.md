@@ -30,7 +30,7 @@ python main.py --config ./config/ucla/train_joint_aagcn.yaml
 python main.py --config ./config/kinetics-skeleton/train_joint_aagcn.yaml
 ```
 ## Trained model
-The trained weight is [here](https://pan.baidu.com/s/1MfAk-AEVcsM6raQsCLua_Q?pwd=spez)
+The trained weight is [here](https://pan.baidu.com/s/1G8h6LlTDypzSseFRxYsdMw?pwd=xfkw)
 
 The corresponding processed data is [here](https://pan.baidu.com/s/1W2T2N0lo8oukzBp13LWcfQ?pwd=ph6f)
 
