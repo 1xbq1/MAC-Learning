@@ -40,3 +40,11 @@ python main.py --config ./config/nturgbd-cross-subject/train_joint_aagcn.yaml --
 ## Acknowledgements
 This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN), thanks to the original authors for their works!
 ## Citation
+```
+@article{shu2022multi,
+  title={Multi-Granularity Anchor-Contrastive Representation Learning for Semi-Supervised Skeleton-Based Action Recognition},
+  author={Shu, Xiangbo and Xu, Binqian and Zhang, Liyan and Tang, Jinhui},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022}
+ ```
+}
