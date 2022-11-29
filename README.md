@@ -46,5 +46,5 @@ This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN), thanks to t
   author={Shu, Xiangbo and Xu, Binqian and Zhang, Liyan and Tang, Jinhui},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2022}
- ```
 }
+ ```
